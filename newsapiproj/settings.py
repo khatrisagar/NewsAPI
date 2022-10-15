@@ -131,7 +131,7 @@ STATICFILES_DIRS =(os.path.join(BASE_DIR / 'static'),)
 WHITENOISE_USE_FINDERS = True
 
 
-MEDIA_URL = 'https://newsapi-sagar.herokuapp.com/images/'
+MEDIA_URL = '/images/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
