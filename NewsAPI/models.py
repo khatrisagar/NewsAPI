@@ -8,7 +8,7 @@ class News(models.Model):
     title = models.CharField(max_length=100)
     image = models.ImageField(upload_to="", blank=True)
     description = models.TextField()
-    date = models.DateTimeField(auto_now_add=True)
+    date = models.DateField()
 
     def __str__(self):
         return self.title
